@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>  
+       <title>Calc</title>
+       <meta charset="utf-8" />
+       <link rel="shortcut icon" href="icon.png" type="image/png" />
+       <link rel="stylesheet" href="css/calc.css" /> 
+    </head>
+    
+    <body>
+    <header>
+        <div id="tb1">
+            <p id="img"><img src="image/webLogo.png"  alt="Web-технологии" width="200" height="110" /></p>
+            <h1>Основы Web-технологий</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li>
+                        <a href="web.html">Web-технологии</a>
+                            <ul class="dropdoun">
+                                 <li><a href="html5.html">HTML5</a></li>
+                                 <li><a href="css3">CSS3</a></li>
+                                 <li><a href="js">JavaScript</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="calc">Калькулятор</a></li>
+                    <li><a href="test">Тест</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+        
+        <main>
+            <form id="calc" name="calc">
+                <table align="center">
+                    <tr>
+                        <td colspan="5"><input type="text" name="text" id="text" placeholder="Введите текст" /></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btt" type="button">7</button></td>
+                        <td><button class="btt"type="button">8</button></td>
+                        <td><button class="btt"type="button">9</button></td>
+                        <td><button class="btt"type="button">/</button></td>
+                        <td><button class="btt"type="button">C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btt"type="button">4</button></td>
+                        <td><button class="btt"type="button">5</button></td>
+                        <td><button class="btt"type="button">6</button></td>
+                        <td><button class="btt" type="button">*</button></td>
+                        <td><button class="btt"type="button">±</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btt"type="button">1</button></td>
+                        <td><button class="btt" type="button">2</button></td>
+                        <td><button class="btt"type="button">3</button></td>
+                        <td><button class="btt"type="button">-</button></td>
+                        <td rowspan="2"><button class="btt1" type="button">=</button><br /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="btt0" type="button">0</button></td>
+                        <td><button class="btt"type="button">.</button></td>
+                        <td><button class="btt"type="button">+</button></td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+        
+        <footer id="tb3">
+            <address> <a href="mailto:ekaterina.logvinova.25@mail.ru">Пишите мне на email--> ekaterina.logvinova.25@mail.ru</a></address>
+            <span>© Логвинова Екатерина 2017</span>
+        </footer>
+        
+    </body>
+</html>
